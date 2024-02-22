@@ -408,6 +408,10 @@ button:hover {
         width: 300px;
     }
 
+    .info-2 h2 {
+        font-size: 20px;
+    }
+
     .painel-2 {
         height: 500px;
     }
@@ -415,6 +419,10 @@ button:hover {
     .info-3 {
         height: 200px;
         width: 300px;
+    }
+
+    .info-3 h2 {
+        font-size: 20px;
     }
 
     .painel-3 {
