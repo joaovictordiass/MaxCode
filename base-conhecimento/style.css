@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mukta', sans-serif;
+}
+
+/* PAINEL DO MENU */
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    height: 75px;
+    background-color: #28056B;
+}
+
+.text-menu img {
+    height: 50px;
+}
+
+.text-menu {
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 30px;
+    cursor: context-menu;
+}
+
+.home-menu {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 20px;
+    color: white;
+}
+
+.home-menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.home-menu a:hover{
+    font-size: 22px;
+    color: gray;
+    transition: 0.5s;
+}
+
+.home-menu button {
+    height: 50px;
+    width: 140px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.home-menu button:hover {
+    background-color: gray;
+}
+
+a {
+    cursor: pointer;
+}
+
+/* FINAL DO SITE */
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #28056B;
+    color: white;
+}
+
+footer {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* ADICIONAIS DO SITE */
+
+.whatsapp {
+    height: 50px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.whatsapp:hover {
+    height: 70px;
+    transition: 0.5s ease-in-out;
+}
+
+/* AQUI PARA BAIXO É EXCLUSIVO DE CADA PÁGINA */
+
+span {
+    color: #28056B;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F5F7F9;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    font-size: 25px;
+    width: 75%;
+}
+
+.container button {
+    height: 50px;
+    width: 140px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #28056B;
+    color: white;
+    margin-bottom: 50px;
+    font-weight: 500;
+}
+
+.container button:hover {
+    background-color: gray;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+}
+
+@media (max-width: 1255px) {
+
+    .home-menu button {
+        display: none;
+    }
+
+}
+
+@media (max-width: 1120px) {
+
+    .menu {
+        gap: 80px;
+    }
+
+    .home-menu {
+        gap: 25px;
+    }
+
+}
+
+@media (max-width: 975px) {
+
+    .home-menu {
+        display: none;
+    }
+
+}
+
+@media (max-width: 636px) {
+
+    .text-container h1 {
+        font-size: 40px;
+    }
+
+    .text-container h3 {
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 510px) {
+
+    .text-container h1 {
+        font-size: 30px;
+    }
+
+    .text-container h3 {
+        font-size: 18px;
+    }
+
+    .text-container h4 {
+        font-size: 23px;
+    }
+
+    .text-container p {
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 390px) {
+
+    .text-container h1 {
+        font-size: 25px;
+    }
+
+    .text-container h3 {
+        font-size: 15px;
+    }
+
+    .text-container h4 {
+        font-size: 20px;
+    }
+
+    .text-container p {
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 320px) {
+
+    .text-menu {
+        font-size: 10px;
+    }
+
+    .text-container h1 {
+        font-size: 18px;
+    }
+
+    .text-container h3 {
+        font-size: 10px;
+    }
+
+    .text-container h4 {
+        font-size: 18px;
+    }
+
+    .text-container p {
+        font-size: 15px;
+    }
+
+}
+
+

@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mukta', sans-serif;
+}
+
+/* PAINEL DO MENU */
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    height: 75px;
+    background-color: #28056B;
+}
+
+.text-menu img {
+    height: 50px;
+}
+
+.text-menu {
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 30px;
+    cursor: context-menu;
+}
+
+.menu2 {
+    margin-top: 15px;
+}
+
+.home-menu {
+    margin-right: 20px;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+}
+
+.home-menu:hover {
+    font-size: 22px;
+    color: gray;
+    transition: 0.5s;
+}
+
+.menu2 button {
+    height: 50px;
+    width: 140px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.menu2 button:hover {
+    background-color: gray;
+}
+
+a {
+    cursor: pointer;
+}
+
+/* FINAL DO SITE */
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #28056B;
+    color: white;
+}
+
+footer {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+/* ADICIONAIS DO SITE */
+
+.whatsapp {
+    height: 50px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.whatsapp:hover {
+    height: 70px;
+    transition: 0.5s ease-in-out;
+}
+
+/* AQUI PARA BAIXO É EXCLUSIVO DE CADA PÁGINA */
+
+/* IMAGEM DO BANNER */
+
+.painel img {
+    width: 100vw;
+}
+
+.painel {
+    display: flex;
+    justify-content: center;
+    height: 379.8px;
+}
+
+span {
+    color: #28056B;
+}
+
+/* SUMÁRIO DO SITE */
+
+.sumario {
+    text-align: center;
+    font-size: 20px;
+    background: #F5F7F9;
+}
+
+.container {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background: #F5F7F9;
+}
+
+.cronograma,
+.conhecimento,
+.artigos {
+    height: 120px;
+    width: 200px;
+    background-color: #28056B;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container button {
+    height: 30px;
+    width: 130px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.container button:hover {
+    background-color: gray;
+}
+
+/* SOBRE A MAXCODE */
+
+.painel2 {
+    margin: auto;
+    font-size: 25px;
+    text-align: center;
+    width: 70%;
+}
+
+/* RESPONSIVE */
+
+@media(max-width: 1270px) {
+
+    .menu {
+        display: flex;
+        gap: 50px;
+    }
+
+    .menu2 {
+        margin: auto;
+    }
+
+    .menu2 button {
+        display: none;
+    }
+
+    .painel2 {
+        margin-top: 30px;
+        width: 90%;
+    }
+
+}
+
+@media(max-width: 1025px) {
+
+    .home-menu,
+    .menu2 {
+        display: none;
+    }
+
+    .text-menu {
+        margin: auto;
+    }
+
+    .home-menu {
+        gap: 50px;
+    }
+
+}
+
+@media(max-width: 830px) {
+
+    .painel {
+        display: none;
+    }
+
+}
+
+@media(max-width: 650px) {
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+    }
+
+    .cronograma,
+    .artigos,
+    .conhecimento {
+        height: 100px;
+    }
+
+    .painel2 {
+        margin-top: 30px;
+        font-size: 15px;
+        width: 90%;
+    }
+
+}
+
+@media (max-width: 310px) {
+
+    .text-menu {
+        gap: 10px;
+        font-size: 15px;
+    }
+}

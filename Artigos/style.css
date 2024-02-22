@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mukta', sans-serif;
+}
+
+/* PAINEL DO MENU */
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    height: 75px;
+    background-color: #28056B;
+}
+
+.text-menu img {
+    height: 50px;
+}
+
+.text-menu {
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 30px;
+    cursor: context-menu;
+}
+
+.home-menu {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 20px;
+    color: white;
+}
+
+.home-menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.home-menu a:hover{
+    font-size: 22px;
+    color: gray;
+    transition: 0.5s;
+}
+
+.home-menu button {
+    height: 50px;
+    width: 140px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.home-menu button:hover {
+    background-color: gray;
+}
+
+a {
+    cursor: pointer;
+}
+
+/* FINAL DO SITE */
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #28056B;
+    color: white;
+}
+
+footer {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* ADICIONAIS DO SITE */
+
+.whatsapp {
+    height: 50px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.whatsapp:hover {
+    height: 70px;
+    transition: 0.5s ease-in-out;
+}
+
+/* AQUI PARA BAIXO É EXCLUSIVO DE CADA PÁGINA */
+
+/* TUDO SOBRE O ARTIGO */
+
+span {
+    color: #28056B;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F5F7F9;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    font-size: 25px;
+    width: 90%;
+}
+
+.container button {
+    height: 50px;
+    width: 140px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+.container button {
+    background-color: #28056B;
+    color: white;
+}
+
+.container button:hover {
+    background-color: gray;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+}
+
+#button-inicio {
+    margin-bottom: 50px;
+    font-weight: 500;
+}
+
+@media (max-width: 1260px) {
+
+    .home-menu button {
+        display: none;
+    }
+
+}
+
+@media (max-width: 1130px) {
+
+    .menu {
+        gap: 80px;
+    }
+
+    .home-menu {
+        gap: 15px;
+    }
+
+}
+
+@media (max-width: 940px) {
+
+    .home-menu {
+        display: none;
+    }
+
+}
+
+@media (max-width: 310px) {
+
+    .text-menu {
+        font-size: 10px;
+        gap: 10px;
+    }
+
+    
+
+}
